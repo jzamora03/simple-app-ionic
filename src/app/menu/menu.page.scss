@@ -1,0 +1,23 @@
+.user-info {
+  text-align: center;
+  margin-bottom: 20px;
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+}
+
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ion-button {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ userName }}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="logout()">Salir</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="user-info">
+    <h2>{{ title }}</h2>
+  </div>
+
+  <div class="menu-buttons">
+    <ion-button expand="full" color="primary" (click)="createRequest()">Crear Solicitud</ion-button>
+    <ion-button expand="full" color="secondary" (click)="editRequest()">Editar Solicitud</ion-button>
+    <ion-button expand="full" color="tertiary" (click)="consultRequest()">Consultar Solicitud</ion-button>
+    <ion-button expand="full" color="success" (click)="syncRequest()">Sincronizar Solicitud</ion-button>
+  </div>
+</ion-content>
